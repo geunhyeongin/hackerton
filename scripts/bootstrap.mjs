@@ -1,3 +1,6 @@
+// 현장 초기화: 기본 규칙·스킬·가이드와 선택한 웹 소스를 새 프로젝트에 복사한다.
+// 먼저 전체 대상의 중복 여부를 확인한다. 기존 파일이 하나라도 있으면 복사를 시작하지 않는다.
+// --web이면 web-app 폴더를 만들고, 가이드/프롬프트는 hackathon-notes에 함께 둔다.
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';

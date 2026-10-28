@@ -1,8 +1,15 @@
 ---
 name: hackathon-debug
-description: "Use when a hackathon web app fails in its terminal, API, persistence, or browser preview."
+description: "해커톤 웹 앱의 터미널·API·저장·브라우저 미리보기에서 오류가 발생했을 때 사용한다. 재현과 경계별 확인으로 원인을 찾고 수정 결과를 검증한다."
 ---
 
-# hackathon-debug
+# 해커톤 디버깅
 
-Reproduce and record the exact error. Follow the request from browser Network to route, validation, domain and storage. Distinguish preview port/network from server errors. Reduce to one failing test or small reproduction, fix the cause and rerun it. Never reset production/test-task data to hide corrupt storage. Do not expose keys in logs. HTTP tests are not UI verification. Record any browser tooling blocker and give manual steps.
+1. 정확한 오류 메시지와 재현 명령·입력·기대 결과·실제 결과를 기록한다.
+2. 브라우저 Network → 서버 경로 → 입력 검증 → 업무 규칙 → 저장 순서로 실패 지점을 좁힌다. 미리보기 주소/포트 문제와 서버 오류를 구분한다.
+3. 작은 재현 예제 또는 실패 테스트를 만든 뒤 원인을 고치고 같은 사례를 다시 확인한다.
+4. 저장 파일 손상을 감추기 위해 시험 데이터를 빈 배열로 초기화하지 않는다. 원본을 보존하고 복구한다.
+5. 키나 토큰을 로그에 출력하지 않는다.
+6. HTTP 테스트만으로 화면 검증이 끝났다고 하지 않는다. 브라우저 도구가 없으면 막힌 이유와 수동 확인 절차를 기록한다.
+
+완료 판단: 원래 오류가 재현되지 않고, 관련 정상 흐름도 다시 통과했다. 미검증 항목은 별도로 남긴다.

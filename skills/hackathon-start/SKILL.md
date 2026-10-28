@@ -1,8 +1,15 @@
 ---
 name: hackathon-start
-description: "Use when starting a time-limited hackathon task: inspect requirements, choose simple reusable code, and establish an executable web flow."
+description: "제한 시간이 있는 해커톤 과제를 시작할 때 사용한다. 요구사항과 마감을 확인하고 단순한 재사용 코드를 선택해 웹에서 실행되는 첫 흐름을 완성한다."
 ---
 
-# hackathon-start
+# 해커톤 시작
 
-Read existing instructions, README, tests and actual deadline first. Separate fixed constraints from assumptions. Use the provided stack; use web-workbench only if compatible. Inventory required features, acceptance evidence and available time. Choose only reusable modules that solve the problem. Complete input→rule→save→browser output early. Keep the user able to explain files and failure modes. Plugin setup must not block core work. Record unknowns rather than invent requirements.
+1. 기존 AGENTS.md·README·공개 테스트와 **실제 구현 마감**부터 확인한다. 고정 제약, 확인된 사실, 아직 검증하지 않은 가정을 구분한다.
+2. 지정 스택과 기존 프로젝트를 우선한다. Node 기반 새 앱이 허용될 때만 web-workbench를 검토한다.
+3. 필수 요구사항마다 수용 기준·구현 위치·검증 근거를 기록한다. 모르는 요구사항을 추측해서 만들지 않는다.
+4. 필요한 부품만 선택하고 **입력 → 규칙 → 저장 → 브라우저 출력** 한 흐름을 일찍 완주한다.
+5. 사용자가 핵심 함수·선택 이유·실패 조건을 설명할 수 있도록 간결하게 안내한다.
+6. 플러그인 설치 때문에 핵심 구현을 멈추지 않는다. 막히면 기본 도구와 프롬프트로 진행한다.
+
+완료 판단: 첫 사용자 흐름을 실제로 실행했고, 남은 필수 기능·가정·검증할 항목을 구분해 기록했다.

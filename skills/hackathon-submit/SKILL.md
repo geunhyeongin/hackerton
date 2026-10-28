@@ -1,8 +1,15 @@
 ---
 name: hackathon-submit
-description: "Use when preparing a hackathon submission and practicing independent explanation of the implemented code."
+description: "해커톤 제출을 준비하거나 구현한 코드의 이해도를 독립적으로 연습할 때 사용한다. 요구사항별 실행 근거·브라우저 확인·인수인계·설명 능력을 점검한다."
 ---
 
-# hackathon-submit
+# 해커톤 제출과 이해도 연습
 
-Read the actual submission deadline, required files and AI restrictions. Trace every required item to implementation and actual evidence. Run tests and the documented startup. Exercise browser normal/empty/error/reload behavior and persistence. Mark unverified checks explicitly. Update handoff with next commands and known limits. Ask the user to explain data flow, core rule, failure and a small modification before showing answers. Do not generate answers for an ongoing AI-prohibited exam. Preparation practice is allowed.
+1. 실제 제출 마감·필수 파일·제출 방법·AI 사용 제한을 먼저 확인한다.
+2. 각 필수 요구사항을 구현 위치와 실제 검증 결과에 연결한다.
+3. 테스트와 문서의 시작 명령을 실행한다. 브라우저에서 정상·빈 입력·오류·새로고침과 재시작 후 데이터 보존을 확인한다.
+4. 실행하지 못한 검사는 미검증으로 남긴다. 인수인계에는 다음 명령과 알려진 한계를 적는다.
+5. 연습에서는 정답을 먼저 보여주지 않는다. 사용자가 데이터 흐름·핵심 규칙·실패 조건을 설명하고 작은 요구사항 변경을 수행하게 한다.
+6. 실제 AI 금지 평가가 진행 중이면 답안을 대신 생성하지 않는다. 사전 학습과 자가시험은 이 지침의 연습 범위다.
+
+완료 판단: 필수 산출물과 검증 근거가 일치하고, 사용자가 핵심 코드와 한계를 직접 설명할 수 있다.

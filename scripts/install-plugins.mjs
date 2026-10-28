@@ -1,3 +1,6 @@
+// 별도 터미널에서 실행한다. 인자가 없으면 목록만 조회하며 설치하지 않는다.
+// 실제 목록에서 확인한 name@marketplaceName만 설치해 잘못된 패키지 추측을 막는다.
+// 셸 문자열을 실행하지 않고 인자 배열로 CLI를 호출한다. 설치 후 새 세션이 필요하다.
 // Run in a terminal, not in the Codex chat input.
 import {spawnSync} from 'node:child_process';
 const executable=process.env.CODEX_BIN || 'codex';

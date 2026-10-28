@@ -1,3 +1,6 @@
+// 오프라인 대안: 패키지 전체를 복사해 상대경로 참조와 LICENSE를 보존한다.
+// 스킬 문서 배치만 수행한다. hooks/MCP/브라우저 실행 도구를 설치하는 것은 아니다.
+// 기존 대상은 덮어쓰지 않는다. 새 세션에서 인식 여부를 확인해야 한다.
 // Instruction-only fallback. Preserve package-relative references and license.
 import fs from 'node:fs';
 import path from 'node:path';

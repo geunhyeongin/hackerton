@@ -1,0 +1,12 @@
+[
+  {
+    "title": "검토 대기 요청",
+    "value": 120,
+    "status": "open"
+  },
+  {
+    "title": "처리 완료 요청",
+    "value": 80,
+    "status": "done"
+  }
+]

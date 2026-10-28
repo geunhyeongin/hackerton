@@ -1,0 +1,2 @@
+# Preserve vendored snapshots byte-for-byte for SHA-256 verification.
+offline/packages/** -text -whitespace

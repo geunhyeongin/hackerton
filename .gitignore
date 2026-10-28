@@ -1,0 +1,4 @@
+boilerplates/web-workbench/data/
+node_modules/
+.env
+*.tmp

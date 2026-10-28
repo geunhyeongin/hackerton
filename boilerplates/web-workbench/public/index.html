@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>업무 요청 관리</title><link rel="stylesheet" href="/style.css">
+<main><header><h1>업무 요청 관리</h1><p>등록 → 검색 → 처리 → 집계. 문제에 맞춰 필드와 판정 규칙을 바꾸세요.</p></header>
+<section aria-label="요약"><p id="summary">불러오는 중…</p></section>
+<section><h2>요청 등록</h2><form id="create">
+<label>제목 <input name="title" required maxlength="200"></label>
+<label>값 <input name="value" type="number" min="0" max="1000000000000" step="any" value="0" required></label>
+<button>등록</button></form></section>
+<section><h2>목록</h2><form id="search"><label>검색 <input name="q"></label>
+<label>상태 <select name="status"><option value="">전체</option><option value="open">대기</option><option value="done">완료</option></select></label><button>조회</button></form>
+<p id="message" role="status" aria-live="polite"></p>
+<div class="table"><table><thead><tr><th>제목</th><th>값</th><th>상태</th><th>작업</th></tr></thead><tbody id="rows"></tbody></table></div>
+<button id="export">전체 JSON 내보내기</button>
+<label>JSON 가져오기 (추가 방식, 최대 1MB/1000건) <input id="import" type="file" accept=".json,application/json"></label></section>
+</main><script type="module" src="/app.js"></script></html>

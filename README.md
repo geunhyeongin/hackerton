@@ -36,6 +36,7 @@ templates/                       인터뷰·합의·추적·검증·인계 양�
 prompts/                         단계별 요청과 이해도 평가
 skills/                          현장 시작·디버깅·제출·handoff
 guides/
+  codexclaw-hackathon.md          CodexClaw 스킬 현장 활용 가이드
   first-10-minutes.md             현장 체크
   plugins.md                     /plugins 실패 시 터미널 명령
   troubleshooting.md             증상별 복구

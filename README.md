@@ -53,5 +53,14 @@ CSV/외부 API/점수 모듈은 필요한 경우에만 연결한다. 기본 UI�
 아는 코드부터 가져가고, 문제와 무관한 기능은 제거한다. Python/React 등이 지정되면 해당 스택을 따른다.
 [현장 시작](guides/first-10-minutes.md) · [플러그인](guides/plugins.md) · [재사용 지도](guides/adaptation-recipes.md) · [코드 이해](guides/understand-the-code.md)
 
+## 구현 후 15분 이해도 훈련
+구현 중 [구현 프롬프트](prompts/5-build-web.md)에 따라 HANDOFF 9번에 복습 근거를 모은다. 기능·필수 검증을 우선하며 설명 시험으로 매번 중단하지 않는다.
+완료 후 AI에게 [훈련 프롬프트](prompts/4-essay-practice.md)를 읽고 실행하게 하고 '15분 훈련 시작'이라고 요청한다.
+bootstrap으로 만든 프로젝트에서는 `hackathon-notes/prompts/4-essay-practice.md`를 사용한다.
+자료 확인까지 포함해 0~4분 핵심 설명 → 4~11분 자료 없이 답변·교정 → 11~15분 도움 없는 변형 재시험으로 진행한다.
+설계·흐름·범위·실패·검증 한계·AI 협업을 실제 제출물로 연습하고, 묻지 못했거나 이해하지 못한 항목은 그대로 남긴다.
+기록에 없는 판단이나 테스트 결과를 만들지 않는다. 이 훈련은 실제 출제·합격을 보장하지 않으며 AI 금지 평가가 시작되면 사용하지 않는다.
+자세한 진행과 예제는 [모의시험 안내](guides/mock-exam.md)를 따른다.
+
 ## 오프라인 플러그인 대안
 [오프라인 스킬 묶음](offline/README.md)에 Superpowers 7.0.1과 gstack-workflows 0.1.0의 라이선스·참조 파일을 포함했다. CLI 설치가 불가능할 때 수동 스킬 경로로 사용한다. 전체 런타임 설치와는 다르다.

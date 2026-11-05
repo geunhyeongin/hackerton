@@ -1,4 +1,2 @@
 ui ux pro max 설치방법
-
-/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill
-/plugin install ui-ux-pro-max@ui-ux-pro-max-skill
+npx.cmd --yes --package=ui-ux-pro-max-cli@2.15.0 uipro init --ai codex --global

@@ -1,0 +1,4 @@
+CodexClaw 설치방법
+
+codex plugin marketplace add https://github.com/lidge-jun/codexclaw
+codex plugin add codexclaw@codexclaw
